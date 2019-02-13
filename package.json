@@ -1,0 +1,22 @@
+{
+  "name": "esm-3.2.1-bug",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:Wildhoney/esm-3.2.1-bug.git",
+  "author": "Wildhoney <adam.timberlake@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^1.2.1",
+    "esm": "3.2.1",
+    "sinon": "^7.2.3"
+  },
+  "ava": {
+    "failFast": true,
+    "require": [
+      "esm"
+    ]
+  }
+}
