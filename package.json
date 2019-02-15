@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "ava": "^1.2.1",
-    "esm": "3.2.1",
+    "esm": "3.2.4",
     "sinon": "^7.2.3"
   },
   "ava": {
